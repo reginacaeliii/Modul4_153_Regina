@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.calculator input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: right;
+    border: solid;
+    background-color: ;
+}
+
+.calculator button {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 2px;
+}
+
+.calculator button.operator {
+    /* background-color: ; */
+    color: rgb(255, 151, 227);
+}
+
+.calculator button.clear {
+    /* background-color: ; */
+    color: rgb(255, 151, 227);
+    width: 140px;
+    background-color: #74006b93;
+}
+
+.calculator button.equal {
+    /* background-color: ; */
+    color: rgb(255, 151, 227);
+}
+
+.calculator .wide-button {
+    width: 85px;
+}
